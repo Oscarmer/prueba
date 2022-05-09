@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block titulo %} Agregar materia prima {% endblock %}
+
+{% block contenido %} 
+
+<div class="card">
+    <div class="card-header">
+        Agregar un materia prima
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos del producto</h4>
+
+      {% include 'form.html' %}  
+
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+{% endblock %}

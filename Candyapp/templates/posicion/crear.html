@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block titulo %} Agregar grupo {% endblock %}
+
+{% block contenido %} 
+
+<div class="card">
+    <div class="card-header">
+        Agregar grupo
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos del grupo</h4>
+
+      {% include 'form.html' %}  
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+{% endblock %}
